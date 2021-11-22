@@ -1,0 +1,24 @@
+.killerwhale {
+  background-image: url('./bg_tailor_exp.svg');
+  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.featuresContainer {
+  padding-top: 3.33rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+    ". . ." 
+    ". . ."
+    ". . .";
+  align-items: center;
+  justify-items: center;
+  row-gap: 5.6875rem;
+    &__image {
+      margin-bottom: 11px;
+    }
+}

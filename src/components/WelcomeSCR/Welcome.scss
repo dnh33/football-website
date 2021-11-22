@@ -1,0 +1,55 @@
+.whale {
+  background-image: url('./bg.svg');
+  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.welcome {
+  margin-left: 11.319444%;
+  /* 163/1440 */
+  padding-top: 3.8125rem;
+}
+
+.welcome__txts {
+  margin-top: 8.3125rem;
+
+  &--headline {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.03em;
+    /* #333333 */
+    color: #333333;
+  }
+
+  &--breadtxt {
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* #4F4F4F */
+    color: #4F4F4F;
+  }
+
+  &--link {
+    padding-top: 1.875rem;
+  }
+}
+
+.l-margin {
+  margin-left: 36px;
+}
+
+@supports (-webkit-text-stroke: 1px black) {
+  .welcome__txts--breadtxt {
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.295);
+    -webkit-text-fill-color: #4F4F4F;
+  }
+}

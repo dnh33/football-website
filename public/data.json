@@ -1,0 +1,18 @@
+{
+    "id": "1",
+    "image": "./avatar_1.svg",
+    "name": "Noah Jackson",
+    "tweet": "I use this app every day and it's a great way to keep up to date with what's going on in football. It's a shame it won't rotate into landscape mode like its main competitor"
+},
+{
+    "id": "1",
+    "image": "./avatar_2.svg",
+    "name": "Darren Wilson",
+    "tweet": "Good for scores and commentary but the team lineups have stopped working. "
+},
+{
+    "id": "1",
+    "image": "./avatar_3.svg",
+    "name": "Michael Akinuli",
+    "tweet": "Good for watching the goals and great for highlights instead of waiting till 10:30 before you can watch highlights on March of the day also no need of sky go"
+}

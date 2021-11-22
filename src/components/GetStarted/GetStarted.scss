@@ -1,0 +1,24 @@
+.panther {
+  background-image: url('./bg3.svg');
+  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.startContainer {
+  margin-left: 11.25%; /* 162/1440 */
+  padding-top: 15.709497%; /* 270/716 */
+
+  &--txt {
+    width: 40%;
+  }
+
+  &--learn {
+    margin-top: 54px !important;
+  }
+}
+
+.capitalize {
+  text-transform: capitalize;
+}

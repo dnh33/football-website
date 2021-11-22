@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__content {
+    display: flex;
+    align-items: center;
+
+    &--logo {
+      margin-right: 18rem;
+    }
+
+    &--links {
+      margin-right: 16.9375rem;
+
+      &>a {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        color: #FFFFFF;
+        margin-right: 37px;
+
+        &:nth-child(4) {
+          margin-right: 0;
+        }
+      }
+    }
+
+    &--SoMe {
+
+      &>a{
+        margin-right: 17px;
+      }
+    }
+  }
+}

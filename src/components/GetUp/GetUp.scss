@@ -1,0 +1,25 @@
+.tiger {
+  background-image: url('./getup_bg.svg');
+  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.getUp {
+
+  &__txts{
+    margin-left: 51.597222%; /* 743/1440 */
+    padding-top: 105px;
+
+    &--breadtxt{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 25px;
+      color: #4F4F4F;
+      margin-top: 35px;
+      margin-bottom: 38px;
+    }
+  }
+}

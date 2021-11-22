@@ -1,0 +1,24 @@
+.giraffe {
+  background-image: url('./bg2.svg');
+  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.whatContainer {
+  margin-left: 50%; /* 979/1440 */
+  padding-top: 9%; /* 133/592 */
+
+  &--txt {
+    width: 56%;
+  }
+
+  &--learn {
+    margin-top: 1.375rem;
+  }
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
